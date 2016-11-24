@@ -1,1 +1,68 @@
+body {
+	background: url(https://github.com/hd21/css_layout_exercises_starter_files/blob/master/images/outerspace_landscape.jpeg?raw=true);
+	background-size: cover;
+}
+
+nav {
+	padding-left: 60px;
+	padding-right: 60px;
+	background-color: gray;
+	position: relative;
+}
+
+nav .logo {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	border: 1px black solid;
+	position: absolute;
+	left: 30px;
+	top: 5px;
+	bottom: 5px;
+
+}
+
+
+nav ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+
+nav li {
+	display: inline-block;
+
+}
+
+nav li::after {
+	content: "|";
+	margin: 5px;
+}
+
+.container {
+	width: 600px;
+	height: 300px;
+	border: 10px green dotted;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+
+}
+
+.pic {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+}
+
+.cat {
+	left: -120px;
+	top: -90px;
+}
+
+.dog {
+	bottom: -120px;
+	right: -90px;
+}
 
